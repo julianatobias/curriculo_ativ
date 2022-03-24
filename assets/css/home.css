@@ -1,0 +1,181 @@
+.container {
+    width: 90%;
+    max-width: 2024px;
+    min-height: 100%;
+    margin: auto; 
+}
+/*Nome do candidato*/
+.container .h-name h1 {
+    font-weight: bold;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/*Titulo do cargo*/
+.container .h-name h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #00E0FF;
+}
+/* Sobre */
+.container .h-sobre .h-titulo-sobre {
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 100px;
+    height: 50px;
+}
+/*Faixa de divisoria*/
+.container .h-sobre .h-title-sobre{
+    border-bottom: 2px solid #00E0FF;
+    margin-bottom: 25px;
+}
+/*titulo sobre e fonte*/
+.container .h-sobre .h-title-sobre  h2 {
+    margin-top: 5%;
+    text-transform: uppercase;
+}
+/* Cor do paragrafo, tamanho e fonte*/
+.container .h-sobre .paragraf {
+    font-style: normal;
+    text-align: justify;
+    font-size: 18px;
+}
+/* Experiência tamanho da "coluna" */
+.container .h-experiencia .h-itens .item .description {
+    width: 90%;
+    min-height:100px;
+    margin-bottom: 5px;
+}
+/* Experiência */
+.container .h-experiencia .h-title-experiencia {
+    width: 100%;
+    height: 50px; 
+    border-bottom: 2px solid #00E0FF;
+    margin-bottom: 50px;
+}
+.container .h-experiencia .h-itens .item{
+    min-height: 220px;
+    display:flex;
+    flex-direction: row;
+}
+.description {
+    margin-left: 3%;
+    text-justify: distribute;
+}
+.description h2{
+    color: #00E0FF;
+    margin-bottom: 10px;
+}
+/* Educação movimentando titulo */
+.container .h-educacao .item .title {
+    margin-bottom: 50px;
+}
+/*Faixa Educação*/
+.container .h-educacao .h-title-educacao {
+    width: 100%;
+    height: 50px;
+    min-width: 100px;
+    border-bottom: 2px solid #00E0FF;
+    margin-bottom: 50px;
+}
+.container .h-educacao .item .title span{
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    color:#00E0FF;
+}
+/*Faixa Habilidades*/
+.h-habilidades .h-title-habilidades {
+    width: 100%;
+    height: 50px;  
+    border-bottom: 2px solid #00E0FF;
+}
+.h-habilidades .item {
+    width: 200%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.h-habilidades .item h2 {
+    text-transform: uppercase;
+}
+.title {
+    min-width: 150px;
+}
+.h-habilidades .item h2 {
+    font-weight: bold;
+    font-size: 18px;
+}
+/*Nome das Experiências com os percentuais*/
+.item .icon {
+    width: 200px;
+    height: 18px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #e7e7e7;
+    border-radius: 6px;
+    background: transparent;
+}
+/*Percentuais*/
+        /*WORDPRESS*/
+.container .h-habilidades .item .icon #percentual-10 {
+    border-radius: 6px;
+    background-color: #00E0FF;  
+    width: 110px;
+    height: 100%;
+}
+    /*PHP*/
+.container .h-habilidades .item .icon #percentual-50 {
+    border-radius: 6px;
+    background-color: #00E0FF;  
+    width: 150px;
+    height: 100%;  
+}
+    /*JAVASCRIPT*/
+.container .h-habilidades .item .icon #percentual-80 {
+    border-radius: 6px;
+    background-color: #00E0FF; 
+    width: 180px;
+    height: 100%;  
+} 
+    /*PYTHON*/
+.container .h-habilidades .item .icon #percentual-100 {
+    border-radius: 6px;
+    background-color: #00E0FF;
+    width: 200px;
+    height: 100%;
+}
+/* Faixa Contato */
+.container .h-contato .h-title-contato {
+    border-bottom: 2px solid #00E0FF;
+    margin-bottom: 50px;
+    width: 100%;
+    min-height: 50px;  
+}
+.container .h-contato .h-title-contato h2 {
+    margin-top: 5%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 26px;
+
+}
+.container .h-contato .item {
+    min-height: 80px;
+}
+/*Dados de contato*/
+.container .h-contato .item h2 {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+/*Cor dos dados de contato e tamanho */
+.container .h-contato .item p {
+    font-weight: normal;
+    font-size: 18px;
+    color: #00E0FF;
+}
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: #00E0FF;
+}
